@@ -25,8 +25,13 @@
 
     <title>Pure Bootstrap Website</title>
   </head>
+
   <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-dark">
+    <!-- Navbar-->
+    <nav
+      class="navbar navbar-expand-md navbar-light fixed-top"
+      style="background-color:rgb(37, 145, 112)"
+    >
       <a class="navbar-brand" href=""
         ><i class="fas fa-child text-warning fa-2x"></i
       ></a>
@@ -35,7 +40,6 @@
         type="button"
         class="navbar-toggler bg-light"
         data-toggle="collapse"
-        ,
         data-target="#nav"
       >
         <span class="navbar-toggler-icon"></span>
@@ -104,6 +108,32 @@
         </form>
       </div>
     </nav>
+
+    <!-- End of Navbar-->
+
+    <!-- Banner --->
+    <section>
+      <div class="container-fluid">
+        <div
+          class="row bg-danger justify-content-center align-items-center"
+          style="height: 100vh"
+        >
+          <div class="col-sm-10 text-center">
+            <h1 class="display-2 text-capitalize">
+              <span class="text-warning"> Pure Bootstrap </span
+              ><span class="text-white font-weight-bold">Website</span>
+            </h1>
+            <h2 class="font-weight-light font-italic text-light">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
+              adipisci rem autem quae.
+            </h2>
+            <a class="btn btn-warning px-4 m-3" href="#">Press Here</a>
+            <a class="btn btn-outline-primary px-4 m-3" href="#">Press Here</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of banner-->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
